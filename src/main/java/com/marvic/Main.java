@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         //creacion de cliente de prueba
         Cliente cliente = new Cliente("Nehemias", 24);
-
+        //llamado a metodo default toString
+        System.out.println(cliente);
     }
 }
