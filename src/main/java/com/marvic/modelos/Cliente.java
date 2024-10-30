@@ -29,11 +29,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return """
-                {
-                    nombre : %s,
-                    edad: %d
-                }
-                """.formatted(nombre,edad);
+        return "{ nombre: "+nombre+",edad: "+edad+"}";
     }
 }
