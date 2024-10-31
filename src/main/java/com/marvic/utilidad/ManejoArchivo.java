@@ -43,9 +43,9 @@ public class ManejoArchivo {
                 BufferedReader lector = new BufferedReader(new FileReader(nombreArchivo))
         ) {
             String linea = lector.readLine();
-            while (linea != null) {
+            while (linea != null && !linea.equalsIgnoreCase(" ")) {
                 //Almacenamos datos en nuestro array
-                datos.add(linea);
+                datos.add(linea.trim());
                 //leemos siguiente linea
                 linea = lector.readLine();
             }
