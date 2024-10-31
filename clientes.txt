@@ -1,5 +1,1 @@
-{
-    nombre : Nehemias,
-    edad: 24
-}
 
